@@ -1,5 +1,5 @@
 $(window).on("scroll", function() {
-    if($(window).scrollTop() > $(window).height()) {
+    if($(window).scrollTop() > $(window).height()-(0.07*$(window).height())){
         $(".header").addClass("headerActive");
         $(".headerButton").addClass("active");
         $(".buttonList").addClass("activeBorder");

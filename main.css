@@ -6,9 +6,12 @@
 @import url('https://fonts.googleapis.com/css?family=Karla');
 @import url('https://fonts.googleapis.com/css?family=Syncopate');
 @import url('https://fonts.googleapis.com/css?family=Rokkitt');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400&display=swap');
 
 :root {
-    --content-font-size: 1.2vw; 
+    --content-font-size: 1.2vw;
+		/* --main-color:#7f6b97;  */
+		--main-color:#6f4f94;
 }
 
 /****** Main Styling ******/
@@ -295,6 +298,7 @@ span {
 }
 .headerActive{
 	background-color: rgba(1,1,1,.3);
+	background-color: #6f4f9475;
 }
 .buttonList{
 	list-style-type: none;
@@ -326,6 +330,7 @@ span {
 }
 .headerButton:hover{
 	color:#7f6b97;
+	
 	cursor:pointer;
 }
 .skillsSection{
@@ -372,6 +377,9 @@ span {
 }
 .active{
 	color:white;
+}
+.active:hover{
+	color: #ffd587;
 }
 .activeBorder{
 	border-bottom: none;
@@ -507,8 +515,9 @@ span {
 	width:50vw;
 }
 .workTitle{
-	color: #520000;
+	color: var(--main-color);
 	font-size: calc(var(--content-font-size)*2);
+	font-family: Quicksand;
 }
 .workDescription{
 	font-family: Oxygen;
@@ -518,6 +527,7 @@ span {
 .technologies{
 	margin: 25px 0px 0px 0px;
 	font-family: Oswald;
+	color: #464545;
 	font-size: calc(var(--content-font-size)*1.5);
 }
 .technologyList{
@@ -540,6 +550,7 @@ span {
 	color: white;
 	font-weight: 500;
 }
+
 .viewCodeButton{
 	padding: 7px 15px 7px 15px;
 	display:inline-block;
@@ -553,6 +564,33 @@ span {
 	background-color:black;
 	color: white;
 	font-weight: 500;
+}
+.viewButtons {
+	border: none;
+	display:inline-block;
+	color:white;
+	background: var(--main-color);
+	font-family: 'Roboto', sans-serif;
+	padding: 7px 25px 7px 25px;
+	font-size: calc(8px + 1vw);
+	margin: 10px;
+	border-radius: 100px;
+	box-shadow: 0px 5px 10px rgba(0,0,0,0.15);
+	transition:color 0.3s, background-color 0.3s;
+	font-weight: 700;
+}
+
+.viewButtons p{
+	display:inline-block;
+	font-family: 'Roboto', sans-serif;
+	padding: 5px 10px 5px 10px;
+	font-size: 2vw;
+	margin: 0;
+	transition:color 0.3s;
+	font-weight: 900;
+}
+.viewButtons:hover{
+	background-color: orange;
 }
 .contactSection{
 	width:100%;
