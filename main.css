@@ -815,7 +815,12 @@ span {
 	margin: 0px 0px 15px 0px;
 	font-size: var(--content-font-size);
 }
-
+.mobileWorkImage{
+	display: none;
+}
+.desktopWorkImage{
+	display: flex;
+}
 
 @keyframes drop {
     0% {
@@ -844,19 +849,69 @@ span {
 	}
 
 }
-@media (max-width: 800px){
-	:root {
-		--content-font-size: 2vw; 
+
+@media(max-width:800px){
+	:root{
+		--content-font-size:2.4vw;
+	}
+	.mobileWorkImage{
+		display: flex;
+	}
+	.desktopWorkImage{
+		display: none;
+	}
+	.work{
+		margin:0;
+		padding: 10px 0;
+	}
+	.workInfo{
+		padding:10vw;
+		width:80vw;
+		padding-top: 0
+	}
+
+
+	.computerPreview, .computerPreviewLeft{
+		margin:0;
+		width:90%;
 	}
 	.workImage{
-		width: 400px;
+		width:100%;
 	}
-  .computerPreviewLeft{
-		margin:0px
+	.infiniteMath{
+		width:80vw;
 	}
-	.computerPreview{
-		margin:0px 0px 0px 50px;
-
+	.technologyList{
+		text-align: center;
+	}
+	.viewButtonContainer{
+		display:flex;
+		justify-content: center;
+		align-items:center;
+	}
+	.phonePreview, .phonePreviewLeft{
+		width: 15%;
+	}
+	.buttonList{
+    width: 50vw;
+    padding: 0;
+	
+	}
+	.buttonList li{
+		margin: 0px 5px;
+	}
+	.portrait{
+		width: 100px;
+	}
+	.aboutInfo{
+		padding: 20px;
+	}
+	.skill{
+		width: calc(var(--content-font-size)*4);
+    margin: 25px 19px 25px 19px;
+	}
+	.contactSubmitButton{
+		font-size: 3vw
 	}
 
 }
