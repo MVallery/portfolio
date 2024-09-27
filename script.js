@@ -1,29 +1,35 @@
 $(window).on("scroll", function() {
     if($(window).scrollTop() > $(window).height()-(0.07*$(window).height())){
-        $(".header").addClass("headerActive");
-        $(".headerButton").addClass("active");
-        $(".buttonList").addClass("activeBorder");
+        $("header").addClass("header-active");
+        $(".header-button").addClass("active");
+        $(".header-links").addClass("activeBorder");
     } else {
-       $(".header").removeClass("headerActive");
-       $(".headerButton").removeClass("active");
-       $(".buttonList").removeClass("activeBorder");
+       $(".header").removeClass("header-active");
+       $(".header-button").removeClass("active");
+       $(".header-links").removeClass("activeBorder");
     }
 });
 
-$("#workButton").click(function() {
+$("#prof-work-button").click(function() {
     $('html,body').animate({
-        scrollTop: $(".workSection").offset().top+2},
+        scrollTop: $(".prof-work-section").offset().top+2},
         'slow');
 });
 
-$("#aboutButton").click(function() {
+$("#projects-button").click(function() {
     $('html,body').animate({
-        scrollTop: $(".aboutSection").offset().top},
+        scrollTop: $(".projects-section").offset().top+2},
         'slow');
 });
 
-$("#contactButton").click(function() {
+$("#skills-button").click(function() {
     $('html,body').animate({
-        scrollTop: $(".contactSection").offset().top},
+        scrollTop: $(".skills-section").offset().top},
+        'slow');
+});
+
+$("#contact-button").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".contact-section").offset().top},
         'slow');
 });

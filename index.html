@@ -8,213 +8,290 @@
   </head>
   <body>
     <div class="main">
-        <div class="coverSectionBlack">
-          
-          </div>
-      <div class="header">
-        <ul class="buttonList">
+      <div class="cover-section-pop"> </div>
+      <header>
+        <ul class="header-links">
           <li>
-            <button class="headerButton" id="workButton">Work</button>
+            <button class="header-button" id="prof-work-button">Work</button>
           </li>
           <li>
-            <button class="headerButton" id="aboutButton">About</button>
+            <button class="header-button" id="projects-button">Projects</button>
           </li>
           <li>
-            <button class="headerButton" id="contactButton">Contact</button>
+            <button class="header-button" id="skills-button">Skills</button>
+          </li>
+          <li>
+            <button class="header-button" id="contact-button">Contact</button>
           </li>
         </ul>
-      </div>
-      <div class="coverSectionBack">
+      </header>
+      <div class="cover-section-back">
         
       </div>
-      <div class="coverSection">
-        <div class="coverSectionOverlay">
-            <div class="topLeftRect">
+      <div class="cover-section">
+        <div class="cover-section-overlay">
+          <div class="topLeftRect"></div>
+          <div class="bottomLeftRect"></div>
+          <div class="cover-section-radial"></div>
 
-            </div>
-            <div class="bottomLeftRect">
-
-            </div>
-            <div class="coverSectionRadial">
-              
-            </div>
-          <div class="coverContentContainer">
-            <div class="coverText">
+          <div class="cover-content-container">
+            <div class="cover-text">
               <p class="coverline1">Hi, I'm <span>Melissa.</span></p>
-              <p class="coverline1">I am a</p>
-
-              <p class="coverline2">web developer.</p>
-              <!-- <p class="coverline3">living in Houston, Texas.</p> -->
+              <p class="coverline2">A Full Stack</p>
+              <p class="coverline3">web developer.</p>
             </div>
-            <div class="coverButtonSection"><a href="https://github.com/MVallery">
-                <div class="githubCoverButton">View GitHub</div></a></div>
           </div>
-
-
         </div>
       </div>
-      <div class="workSection">
-        <h1 class="workSectionTitle">My Work</h1>
-        <div class="work">
-          <div class="workInfo">
-            <h1 class="workTitle">Worksheet Creator</h1>
-            <p class="workDescription">A web app for creating math worksheets including 16 customizable math concepts. Users can login allowing them to regenerate previously created worksheets.</p>
-          <div class="workImage mobileWorkImage"><img class="computerPreview infiniteMath" src="./pi-infinitemathws1.png"></div>
+      <div class="prof-work-section work-section">
+        <h1>Professional Work</h1>
+        <p class="section-description">Below are a few examples of websites I’ve built, showcasing <br/>some of the projects I've completed over my professional career.</p>
+        <div class="prof-work">
+          <div class="prof-work-wrapper">
             
-            <h3 class="technologies">Technologies:</h3>
-            <p class="technologyList">React, Express, Node.js, MongoDB, HTML5, CSS3</p>
-            <div class="viewButtonContainer">
-            <a href="https://www.infinitemathworksheets.com/" target="_blank"><div class="viewButtons">View Live</div></a>
-            <a href="https://github.com/MVallery/worksheet-creator" target="_blank"><div class="viewButtons">View Code</div></a>
+            <a href="https://www.archetypeboxing.com/" target="_blank">
+              <div class="prof-preview">
+                <img src="./professional/archetype.png"/>
+                <div class="view-link">View Live</div>
+              </div>
+            </a>
+            <div class="prof-work-description">
+              <h2 class="prof-work-title">Boxing Club</h2>
+              <p>
+                I've maintained this website over the past 3 years, handling deployments using SST serverless, open-next, and AWS.
+                It was originally written in plain React, but I migrated it over to Next.js to improve SEO. 
+                After the migration and optimizing images and metadata, the site's search rankings improved from around 20th place to the top spot.
+              </p>
             </div>
           </div>
-          <div class="workImage desktopWorkImage"><img class="computerPreview infiniteMath" src="./pi-infinitemathws1.png"></div>
+          <div class="prof-work-wrapper">
+            <a href="https://www.castingdroid.com/" target="_blank">
+              <div class="prof-preview">
+                <img src="./professional/casting.png"/>
+                <div class="view-link">View Live</div>
+              </div>
+            </a>
+            <div class="prof-work-description">
+              <h2 class="prof-work-title">Casting</h2>
+              <p>
+                This site, built with React, Node.js, and MongoDB, is still in the beginning stages of building a customer base. 
+                I built key functionalities of the site including the artist and director dashboards, project and profile creation, 
+                payment processing, and the search functionality to filter out projects or artists based on specific criteria.
+                I also implemented a real-time messaging system for artists and directors to communicate, as well as a submission 
+                system for artists to submit auditions for projects, and for directors to review and manage applications.
+              </p>
+            </div>
+          </div>
+          <div class="prof-work-wrapper half-page">
+            <a href="https://www.slocalvirtualbooths.com/" target="_blank">
+              <div class="prof-preview">
+                <img src="./professional/slocal.png"/>
+                <div class="view-link">View Live</div>
+              </div>
+            </a>
+            <div class="prof-work-description">
+              <h2 class="prof-work-title">Lead Capturing</h2>
+              <p>
+                This site is built with React, Node.js and MongoDB and is hosted on AWS using Route53 and Lightsail. It also integrates with Stripe for payments.
+              </p>
+            </div>
+          </div>
+          <!-- <div class="prof-work-wrapper half-page">
+            <a href="https://" target="_blank">
+              <div class="prof-preview">
+                <img src="./professional/.png"/>
+                <div class="view-link">View Live</div>
+              </div>
+            </a>
+            <div class="prof-work-description">
+              <h2 class="prof-work-title">Legal Marketing Solutions</h2>
+              <p>
+                This site is built with React and Node.js and is hosted on AWS using Route53 and Lightsail.
+              </p>
+            </div>
+          </div> -->
         </div>
-        <div class="work">
-          <div class="workImage desktopWorkImage"><img class="phonePreviewLeft" src="./pi-classmanager-cell.png"><img class="computerPreviewLeft" src="./pi-classmanagerclass2.png"></div>
-          <div class="workInfo">
-            <h1 class="workTitle">Classroom Manager</h1>
-            <p class="workDescription">A web app made for teachers to create seating charts and track student behavior for their classes. Users are able to move students around the room, adjust the layout of the classes, and add or remove points based on behavior among many other features. Users can login to save their student data and seating arrangements.</p>
-          <div class="workImage mobileWorkImage"><img class="phonePreviewLeft" src="./pi-classmanager-cell.png"><img class="computerPreviewLeft" src="./pi-classmanagerclass2.png"></div>
-            
-            <h3 class="technologies">Technologies:</h3>
-            <p class="technologyList">React, Redux, Express, Node.js, MongDB, HTML5, CSS3</p>
-            <div class="viewButtonContainer">
-              <a href="https://www.class-manager.com/" target="_blank"><div class="viewButtons">View Live</div></a>
-              <a href="https://github.com/MVallery/class-manager" target="_blank"><div class="viewButtons">View Code</div></a>
+      </div>
+
+      <div class="work-section projects-section">
+        <h1>Personal Projects</h1>
+        <div class="work worksheet-creator">
+          <div class="work-wrapper">
+            <div class="work-description">
+              <h2 class="work-title">Worksheet Creator</h2>
+              <p>A web app for creating math assignments including 29 customizable math concepts and 5 different activity types. 
+                Users can select from a variety of randomly generated pre-configured activities, or go through the customization pages to pick out exactly 
+                which concepts and what levels to include in each activity. Users can login allowing them to regenerate previously created worksheets and 
+                purchase activities.
+              </p>
+            </div>
+            <div class="site-preview">
+              <img class="example-1" src="./activity-tc.png"/>
+              <img class="example-2" src="./tables.png"/>
+              <img class="computer-preview" src="./site-preview-ww.png"/>
+              <img class="cell-preview" src="./site-preview-ww-cell.png"/>
+            </div>
+
+            <div class="work-technologies">
+              <h3 class="technologies">Technologies:</h3>
+              <p class="technology-list">React, Express, Node.js, MongoDB, HTML5, SCSS, Stripe</p>
+              <div class="view-link-container">
+                <a class="view-link" href="https://www.worksheetwonderland.com/" target="_blank">View Live</a>
+              </div>
+            </div>
+          </div>
+   
+        </div>
+        <div class="work class-manager">
+          <div class="work-wrapper">
+            <div class="site-preview">
+              <img class="cell-preview" src="./site-preview-cm-cell.png"/>
+              <img class="computer-preview" src="./site-preview-cm.png"/>
+            </div>
+            <div class="work-description">
+              <h2 class="work-title">Classroom Manager</h2>
+              <p>A web app made for teachers to create seating charts and track student behavior for their classes. Users are able to move students around the room, adjust the layout of the classes, and add or remove points based on behavior among many other features. Users can login to save their student data and seating arrangements.</p>
+            </div>
+            <div class="work-technologies">
+              <h3 class="technologies">Technologies:</h3>
+              <p class="technology-list">React, Redux, Express, Node.js, MongDB, HTML5, CSS3</p>
+              <div class="view-link-container">
+                <a class="view-link" href="https://www.class-manager.com/" target="_blank">View Live</a>
+              </div>
             </div>
 
           </div>
         </div>
         <div class="work">
-          <div class="workInfo">
-            <h1 class="workTitle">Author Website</h1>
-            <p class="workDescription">A custom website built for a new author to advertise a book that will soon be published called Arboreal Path. Includes an interactive map and character section. </p>
-          <div class="workImage mobileWorkImage"><img class="computerPreview" src="./pi-arborealpath-home.png"><img class="phonePreview" src="./pi-arborealpath-home-cell.png"></div>
-            
-            <h3 class="technologies">Technologies:</h3>
-            <p class="technologyList">React, HTML5, SCSS</p>
-            <div class="viewButtonContainer">
-            <a href="https://www.arborealpath.com/" target="_blank"><div class="viewButtons">View Live</div></a>
-            <a href="https://github.com/MVallery/arboreal-path" target="_blank"><div class="viewButtons">View Code</div></a>
+          <div class="work-wrapper">
+            <div class="work-description">
+              <h2 class="work-title">Author Website</h2>
+              <p>A custom website built for a an author to advertise a book called Arboreal Path. Includes an interactive map and character section. </p>
             </div>
-          </div>
-          <div class="workImage desktopWorkImage"><img class="computerPreview" src="./pi-arborealpath-home.png"><img class="phonePreview" src="./pi-arborealpath-home-cell.png"></div>
-        </div>
-        <div class="work">
-          <div class="workImage desktopWorkImage"><img class="phonePreviewLeft" src="./pi-mathfactmaster-cell.png"><img class="computerPreviewLeft" src="./pi-mathfactmaster.png"></div>
-          <div class="workInfo">
-            <h1 class="workTitle">Math Fact Master</h1>
-            <p class="workDescription">This app allows users to test their math fact skills and also helps them gain mastery by repeating missed questions more often until they get them correct.</p>
-          <div class="workImage mobileWorkImage"><img class="phonePreviewLeft" src="./pi-mathfactmaster-cell.png"><img class="computerPreviewLeft" src="./pi-mathfactmaster.png"></div>
-            
-            <h3 class="technologies">Technologies:</h3>
-            <p class="technologyList">React, HTML5, CSS3</p>
-            <div class="viewButtonContainer">
+            <div class="site-preview">
+              <img class="computer-preview" src="./site-preview-ap.png"/>
+              <img class="cell-preview" src="./site-preview-ap-cell.png"/>
+            </div>
+            <div class="work-technologies">
+              <h3 class="technologies">Technologies:</h3>
+              <p class="technology-list">React, HTML5, SCSS</p>
+              <div class="view-link-container">
+                <a class="view-link" href="https://www.arborealpath.com/" target="_blank">View Live</a>
+              </div>
 
-            <a href="https://www.mathfactmaster.com/" target="_blank"><div class="viewButtons">View Live</div></a>
-            <a href="https://github.com/MVallery/mathfactmaster" target="_blank"><div class="viewButtons">View Code</div></a>
             </div>
           </div>
         </div>
 
-
-
-
-      <div class="aboutSection">
-        <h1 class="aboutSectionTitle">About</h1>
-        <div class="aboutInfo"><img class="portrait" src="./headshot.jpg">
-          <p class="aboutDescription">
-            I am a passionate web developer based in Houston, Texas. 
-            While working as a math teacher, I began learning programming as a hobby and I really 
-            enjoyed the challenge and problem solving involved. My passion grew as I began 
-            to create more complex programs that I could actually use in the classroom. I am excited
-            to continue growing and learning as I continue my career as a professional developer. Currently I am available for 
-            freelance projects or full-time positions as a frontend or backend 
-            developer. I look forward to hearing from you!
+      <div class="about-section">
+        <h1>About</h1>
+        <div class="about-info general-content"><img class="portrait" src="./headshot.jpg">
+          <p class="about-description">
+            I am a passionate Fullstack Developer with over 3 years of professional experience in web development. 
+            I have experience working with a variety of technologies including Javascript, Typescript, React, Angular, Next.js, Node.js, MongoDB, and more. 
+            I enjoy working on both the frontend and backend of web applications and I am always excited to learn new technologies.
+            My journey into web developement began as a hobby and I quickly grew to love the challenge and creativity it offers, which has now evolved into a rewarding career in development.
           </p>
         </div>
       </div>
-      <div class="skillsSection">
-        <div class="skillsSectionTitle">
-          <hr>
-          <div class="skillsTitle">
-            <h1>Skills</h1>
-          </div>
+      <div class="skills-section">
+        <div class="skills-section-title">
+          <h1>Skills</h1>
         </div>
-        <div class="skillsList">
-          <div class="skillRow">
+        <div class="skills-list general-content">
+          <!-- <div class="skills-row"> -->
             <div class="skill">
-              <div class="skillImage"><img src="./css3.png"></div>
-              <h1 class="skillName">CSS3</h1>
+              <div class="skills-image"><img src="./skills/javascript.png"></div>
+              <h1 class="skills-name">JavaScript</h1>
             </div>
             <div class="skill">
-              <div class="skillImage"><img src="./html5f.png"></div>
-              <h1 class="skillName">HTML5</h1>
+              <div class="skills-image"><img src="./skills/typescript.svg"></div>
+              <h1 class="skills-name">Typescript</h1>
             </div>
             <div class="skill">
-              <div class="skillImage"><img src="./javascript.png"></div>
-              <h1 class="skillName">JavaScript</h1>
+              <div class="skills-image"><img src="./skills/nextjs.png"></div>
+              <h1 class="skills-name">Next.js</h1>
             </div>
             <div class="skill">
-              <div class="skillImage"><img src="./nodejs-logo.png"></div>
-              <h1 class="skillName">Node.js</h1>
+              <div class="skills-image"><img src="./skills/react.png"></div>
+              <h1 class="skills-name">React</h1>
             </div>
             <div class="skill">
-              <div class="skillImage"><img src="./express.png"></div>
-              <h1 class="skillName">Express</h1>
-            </div>
-          </div>
-          <div class="skillRow">
-            <div class="skill">
-              <div class="skillImage"><img src="./mongodb-logo.png"></div>
-              <h1 class="skillName">MongoDB</h1>
+              <div class="skills-image"><img src="./skills/redux.png"></div>
+              <h1 class="skills-name">Redux</h1>
             </div>
             <div class="skill">
-              <div class="skillImage"><img src="./react.png"></div>
-              <h1 class="skillName">React</h1>
+              <div class="skills-image"><img src="./skills/angular.svg"></div>
+              <h1 class="skills-name">Angular</h1>
             </div>
             <div class="skill">
-              <div class="skillImage"><img src="./redux.png"></div>
-              <h1 class="skillName">Redux</h1>
+              <div class="skills-image"><img src="./skills/nodejs-logo.png"></div>
+              <h1 class="skills-name">Node.js</h1>
             </div>
             <div class="skill">
-              <div class="skillImage"><img src="./heroku.png"></div>
-              <h1 class="skillName">Heroku</h1>
+              <div class="skills-image"><img src="./skills/express.png"></div>
+              <h1 class="skills-name">Express</h1>
+            </div>
+          <!-- </div> -->
+          <!-- <div class="skills-row"> -->
+            <div class="skill">
+              <div class="skills-image"><img src="./skills/mongodb-logo.png"></div>
+              <h1 class="skills-name">MongoDB</h1>
             </div>
             <div class="skill">
-              <div class="skillImage"><img src="./GitHub-Mark-120px-plus.png"></div>
-              <h1 class="skillName">GitHub</h1>
+              <div class="skills-image"><img src="./skills/css3.png"></div>
+              <h1 class="skills-name">CSS3</h1>
             </div>
-          </div>
+            <div class="skill">
+              <div class="skills-image"><img src="./skills/scss.svg"></div>
+              <h1 class="skills-name">SCSS</h1>
+            </div>
+            <div class="skill">
+              <div class="skills-image"><img src="./skills/html5.png"></div>
+              <h1 class="skills-name">HTML5</h1>
+            </div>
+            <div class="skill">
+              <div class="skills-image"><img src="./skills/GitHub-Mark-120px-plus.png"></div>
+              <h1 class="skills-name">Git</h1>
+            </div>
+            <div class="skill">
+              <div class="skills-image"><img src="./skills/openai.svg"></div>
+              <h1 class="skills-name">OpenAI API</h1>
+            </div>
+            <div class="skill">
+              <div class="skills-image"><img src="./skills/heroku.png"></div>
+              <h1 class="skills-name">Heroku</h1>
+            </div>
+            <div class="skill">
+              <div class="skills-image"><img src="./skills/aws.svg"></div>
+              <h1 class="skills-name">AWS (Route53, Lightsail, EC2, Cloudfront, SES, SNS)</h1>
+            </div>
+          <!-- </div> -->
         </div>
       </div>
-      <div class="contactSection">
-        <div class="contactTitleContainer">
-          <h1 class="contactTitle">Contact</h1>
-        </div>
-        <div class="contactContent">
-          <div class="contactLinks">
-            <h1 class="emailTitle">Email</h1>
+      <div class="contact-section">
+        <h1>Contact</h1>
+        <div class="contact-content general-content">
+          <div class="contact-links">
+            <h2 class="email-title">Email</h1>
             <p class="email">vallery.melissa@gmail.com</p>
 
           </div>
-          <div class="contactContentSpace"></div>
-          <div class="contactForm">
-            <form action="https://formspree.io/f/mknkgzkq" method="POST">
-              <input class="smallForm" type="text" placeholder="Name" name="name">
-              <input class="smallForm" type="text" placeholder="Email" name="_replyto">
-              <input class="smallForm" type="text" placeholder="Subject" name="subject">
+          <div class="contact-form">
+            <form action="https://formspree.io/f/myzgreal" method="POST">
+              <input type="text" placeholder="Name" name="name">
+              <input type="text" placeholder="Email" name="_replyto">
+              <input type="text" placeholder="Subject" name="subject">
               <textarea type="text" placeholder="Information" name="body"></textarea>
-              <div class="contactSubmitButtonContainer">
-                <button class="contactSubmitButton" type="submit" value="Send">Submit</button>
+              <div class="contact-submit-button-container">
+                <button class="contact-submit-button" type="submit" value="Send">Submit</button>
               </div>
             </form>
           </div>
         </div>
       </div>
       <div class="copyright">
-        <p class="copyrightText">&#9400; Melissa Vallery</p>
+        <p class="copyright-text">&#9400; Melissa Vallery</p>
       </div>
     </div>
   </body>
