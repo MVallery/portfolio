@@ -48,6 +48,28 @@ h1 {
 	max-width: 1200px;
 }
 
+.view-link {
+  border: none;
+  display: inline-block;
+  color: white;
+  background: var(--main-color);
+  padding: 7px 25px 9px 25px;
+  font-family: "Oxygen", sans-serif;
+  font-size: clamp(20px, calc(8px + 1vw), 30px);
+  font-weight: 700;
+  text-decoration: none;
+  line-height: 1em;
+  letter-spacing: 0.5px;
+  margin: 10px;
+  border-radius: 100px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+  transition: color 0.3s, background-color 0.3s;
+}
+
+.view-button:hover {
+  background-color: rgb(230, 170, 59);
+}
+
 /********* HEADER **********/
 
 header {
@@ -260,7 +282,7 @@ span {
   margin: 0;
   transform: translateX(-50%);
 }
-.prof-work-wrapper a:hover .view-link{
+.prof-work-wrapper a:hover .view-link, .view-link:hover{
   background-color: rgb(230, 170, 59);
 }
 .prof-work-wrapper p {
@@ -486,26 +508,6 @@ span {
   color: #6e6e6e;
 }
 
-.view-link {
-  border: none;
-  display: inline-block;
-  color: white;
-  background: var(--main-color);
-  padding: 7px 25px 9px 25px;
-  font-family: "Oxygen", sans-serif;
-  font-size: clamp(20px, calc(8px + 1vw), 30px);
-  font-weight: 700;
-  text-decoration: none;
-  line-height: 1em;
-  margin: 10px;
-  border-radius: 100px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
-  transition: color 0.3s, background-color 0.3s;
-}
-
-.view-button:hover {
-  background-color: rgb(230, 170, 59);
-}
 .contact-section {
   width: 100%;
   min-height: 50vh;
@@ -612,6 +614,7 @@ textarea {
   height: 50px;
   width: 100%;
   background-color: gray;
+  text-align: center;
 }
 .copyright-text {
   color: white;
