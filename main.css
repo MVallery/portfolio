@@ -274,6 +274,9 @@ span {
 .prof-work-wrapper a:hover img{
   box-shadow: 4px 7px 14px #8d8983;
 }
+.prof-work-description p span {
+  font-weight: 700;
+}
 .prof-preview .view-link {
   position: absolute;
   bottom: -16px;
@@ -454,6 +457,7 @@ span {
 .work-description {
   width: calc(50% - 20px);
 }
+
 .site-preview {
   position: relative;
   display: flex;
