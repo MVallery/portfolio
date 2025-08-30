@@ -18,7 +18,7 @@ $("#prof-work-button").click(function() {
 
 $("#projects-button").click(function() {
     $('html,body').animate({
-        scrollTop: $(".projects-section").offset().top+2},
+        scrollTop: $(".personal-projects-section").offset().top+2},
         'slow');
 });
 

@@ -51,14 +51,14 @@
             
             <a href="https://www.archetypeboxing.com/" target="_blank">
               <div class="prof-preview">
-                <img src="./professional/archetype.png"/>
+                <img  class="preview-img" src="./professional/archetype.png"/>
                 <div class="view-link">View Site</div>
               </div>
             </a>
             <div class="prof-work-description">
               <h2 class="prof-work-title">Boxing Club</h2>
               <p>
-                I've maintained this website over the past 3 years, handling deployments using <span>SST serverless</span>, <span>open-next</span>, and <span>AWS</span>.
+                I've maintained this website over the past 4 years, handling deployments using <span>SST serverless</span>, <span>open-next</span>, and <span>AWS</span>.
                 It was originally written in plain React, but I migrated it over to <span>Next.js</span> to improve SEO. 
                 After the migration and optimizing images and metadata, the site's search rankings improved from around 20th place to the top spot.
               </p>
@@ -67,7 +67,7 @@
           <div class="prof-work-wrapper">
             <a href="https://www.castingdroid.com/" target="_blank">
               <div class="prof-preview">
-                <img src="./professional/casting.png"/>
+                <img  class="preview-img" src="./professional/casting.png"/>
                 <div class="view-link">View Site</div>
               </div>
             </a>
@@ -85,7 +85,7 @@
           <div class="prof-work-wrapper">
             <a href="https://www.slocalvirtualbooths.com/" target="_blank">
               <div class="prof-preview">
-                <img src="./professional/slocal.png"/>
+                <img  class="preview-img" src="./professional/slocal.png"/>
                 <div class="view-link">View Site</div>
               </div>
             </a>
@@ -113,81 +113,84 @@
         </div>
       </div>
 
-      <div class="work-section projects-section">
+      <div class="prof-work-section work-section personal-projects-section">
         <h1>Personal Projects</h1>
-        <div class="work worksheet-creator">
-          <div class="work-wrapper">
-            <div class="work-description">
-              <h2 class="work-title">Worksheet Creator</h2>
+        <div class="prof-work worksheet-creator">
+          <div class="prof-work-wrapper">
+            <div class="prof-work-description">
+              <h2 class="prof-work-title">Worksheet Creator</h2>
               <p>A web app for creating math assignments including 29 customizable math concepts and 5 different activity types. 
                 Users can select from a variety of randomly generated pre-configured activities, or go through the customization pages to pick out exactly 
-                which concepts and what levels to include in each activity. Users can login allowing them to regenerate previously created worksheets and 
+                which concepts and what levels to include in each activity. Users registration allows them to regenerate previously created worksheets and 
                 purchase activities.
               </p>
-            </div>
-            <div class="site-preview">
-              <img class="example-1" src="./activity-tc.png"/>
-              <img class="example-2" src="./tables.png"/>
-              <img class="computer-preview" src="./site-preview-ww.png"/>
-              <img class="cell-preview" src="./site-preview-ww-cell.png"/>
-            </div>
-
-            <div class="work-technologies">
-              <h3 class="technologies">Technologies:</h3>
-              <p class="technology-list">React, Express, Node.js, MongoDB, HTML5, SCSS, Stripe</p>
-              <div class="view-link-container">
-                <a class="view-link" href="https://www.worksheetwonderland.com/" target="_blank">View Site</a>
+              <div class="work-technologies">
+                <h3 class="technologies">Technologies:</h3>
+                <p class="technology-list">React, Redux, Node.js, Express, MongoDB, HTML5, SCSS, Stripe</p>
               </div>
             </div>
+            <a href="https://www.worksheetwonderland.com/" target="_blank">
+            <div class="prof-preview">
+              <img class="example-1" src="./activity-tc.png"/>
+              <img class="example-2" src="./tables.png"/>
+              <img  class="preview-img" src="./site-preview-ww.png"/>
+                              <div class="view-link">View Site</div>
+
+            </div>
+            </a>
+
           </div>
    
         </div>
-        <div class="work class-manager">
-          <div class="work-wrapper">
-            <div class="site-preview">
-              <img class="cell-preview" src="./site-preview-cm-cell.png"/>
-              <img class="computer-preview" src="./site-preview-cm.png"/>
+        <div class="prof-work class-manager">
+          <div class="prof-work-wrapper">
+            <a href="https://edmetrix.app/" target="_blank">
+            <div class="prof-preview">
+              <img  class="preview-img" src="./site-preview-edmetrix.png"/>
+                              <div class="view-link">View Site</div>
+
             </div>
-            <div class="work-description">
-              <h2 class="work-title">Classroom Manager</h2>
-              <p>A web app made for teachers to create seating charts and track student behavior for their classes. Users are able to move students around the room, adjust the layout of the classes, and add or remove points based on behavior among many other features. Users can login to save their student data and seating arrangements.</p>
-            </div>
-            <div class="work-technologies">
-              <h3 class="technologies">Technologies:</h3>
-              <p class="technology-list">React, Redux, Express, Node.js, MongDB, HTML5, CSS3</p>
-              <div class="view-link-container">
-                <a class="view-link" href="https://www.class-manager.com/" target="_blank">View Site</a>
+            </a>
+            <div class="prof-work-description">
+              <h2 class="prof-work-title">EdMetrix</h2>
+              <p>An app / web app made for teachers to create seating charts and track student behavior and concept proficiency for their classes. Users are able to move students around the class chart, adjust the layout of the classes, and add or remove points based on behavior among many other features.
+                Backend is built using Python along with FastAPI and MySQL for the database, authentication was integrated with Supabase, and the frontend is built with React Native with Expo.
+              </p>
+              <div class="work-technologies">
+                <h3 class="technologies">Technologies:</h3>
+                <p class="technology-list">React Native, Redux Toolkit, RTK Query, Python, MySQL, FastAPI, Supabase, AWS Lightsail, HTML5, CSS3</p>
               </div>
             </div>
 
           </div>
         </div>
-        <div class="work">
-          <div class="work-wrapper">
-            <div class="work-description">
-              <h2 class="work-title">Author Website</h2>
+        <div class="prof-work">
+          <div class="prof-work-wrapper">
+            <div class="prof-work-description">
+              <h2 class="prof-work-title">Author Website</h2>
               <p>A custom website built for a an author to advertise a book called Arboreal Path. Includes an interactive map and character section. </p>
-            </div>
-            <div class="site-preview">
-              <img class="computer-preview" src="./site-preview-ap.png"/>
-              <img class="cell-preview" src="./site-preview-ap-cell.png"/>
-            </div>
-            <div class="work-technologies">
-              <h3 class="technologies">Technologies:</h3>
-              <p class="technology-list">React, HTML5, SCSS</p>
-              <div class="view-link-container">
-                <a class="view-link" href="https://www.arborealpath.com/" target="_blank">View Site</a>
+              <div class="work-technologies">
+                <h3 class="technologies">Technologies:</h3>
+                <p class="technology-list">React, HTML5, SCSS</p>
+  
+  
               </div>
-
             </div>
+            <a href="https://www.arborealpath.com/" target="_blank">
+
+              <div class="prof-preview">
+                <img class="preview-img" src="./site-preview-ap.png"/>
+                <div class="view-link">View Site</div>
+              </div>
+            </a>
           </div>
         </div>
 
       <div class="about-section">
         <h1>About</h1>
-        <div class="about-info general-content"><img class="portrait" src="./headshot.jpg">
+        <div class="about-info general-content"><img class="portrait" src="./headshot.png">
           <p class="about-description">
-            I am a passionate Fullstack Developer with over 3 years of professional experience in web development. 
+            I am a passionate Fullstack Developer with over 4 years of professional experience in web development. 
             I have experience working with a variety of technologies including Javascript, Typescript, React, Angular, Next.js, Node.js, MongoDB, and more. 
             I enjoy working on both the frontend and backend of web applications and I am always excited to learn new technologies.
             My journey into web developement began as a hobby and I quickly grew to love the challenge and creativity it offers, which has now evolved into a rewarding career in development.
@@ -217,8 +220,16 @@
               <h1 class="skills-name">React</h1>
             </div>
             <div class="skill">
+              <div class="skills-image"><img src="./skills/react-native.png"></div>
+              <h1 class="skills-name">React Native</h1>
+            </div>
+            <div class="skill">
+              <div class="skills-image"><img src="./skills/expo.png"></div>
+              <h1 class="skills-name">Expo</h1>
+            </div>
+            <div class="skill">
               <div class="skills-image"><img src="./skills/redux.png"></div>
-              <h1 class="skills-name">Redux</h1>
+              <h1 class="skills-name">Redux & Redux Toolkit</h1>
             </div>
             <div class="skill">
               <div class="skills-image"><img src="./skills/angular.svg"></div>
@@ -232,11 +243,15 @@
               <div class="skills-image"><img src="./skills/express.png"></div>
               <h1 class="skills-name">Express</h1>
             </div>
-          <!-- </div> -->
-          <!-- <div class="skills-row"> -->
+            <!-- </div> -->
+            <!-- <div class="skills-row"> -->
             <div class="skill">
               <div class="skills-image"><img src="./skills/mongodb-logo.png"></div>
               <h1 class="skills-name">MongoDB</h1>
+            </div>
+            <div class="skill">
+              <div class="skills-image"><img src="./skills/mysql.png"></div>
+              <h1 class="skills-name">MySQL</h1>
             </div>
             <div class="skill">
               <div class="skills-image"><img src="./skills/css3.png"></div>
@@ -250,22 +265,38 @@
               <div class="skills-image"><img src="./skills/html5.png"></div>
               <h1 class="skills-name">HTML5</h1>
             </div>
-            <div class="skill">
-              <div class="skills-image"><img src="./skills/GitHub-Mark-120px-plus.png"></div>
+            <div class="skill" >
+              <div class="skills-image" style="background-color:#fff"><img src="./skills/GitHub-Mark-120px-plus.png"></div>
               <h1 class="skills-name">Git</h1>
             </div>
+  
+            <!-- <div class="skill">
+              <div class="skills-image"><img src="./skills/heroku.png"></div>
+              <h1 class="skills-name">Heroku</h1>
+            </div> -->
+            <div class="skill">
+              <div class="skills-image"><img src="./skills/python.png"></div>
+              <h1 class="skills-name">Python</h1>
+            </div>
+            <div class="skill">
+              <div class="skills-image"><img src="./skills/supabase.png"></div>
+              <h1 class="skills-name">Supabase</h1>
+            </div>
+            
             <div class="skill">
               <div class="skills-image"><img src="./skills/openai.svg"></div>
               <h1 class="skills-name">OpenAI API</h1>
             </div>
             <div class="skill">
-              <div class="skills-image"><img src="./skills/heroku.png"></div>
-              <h1 class="skills-name">Heroku</h1>
+              <div class="skills-image"><img src="./skills/fastapi.jpg"></div>
+              <h1 class="skills-name">FastAPI</h1>
             </div>
             <div class="skill">
               <div class="skills-image"><img src="./skills/aws.svg"></div>
               <h1 class="skills-name">AWS (Route53, Lightsail, EC2, Cloudfront, SES, SNS)</h1>
             </div>
+          </div>
+
           <!-- </div> -->
         </div>
       </div>
@@ -282,7 +313,7 @@
               <input type="text" placeholder="Name" name="name">
               <input type="text" placeholder="Email" name="_replyto">
               <input type="text" placeholder="Subject" name="subject">
-              <textarea type="text" placeholder="Information" name="body"></textarea>
+              <textarea type="text" placeholder="Message" name="body"></textarea>
               <div class="contact-submit-button-container">
                 <button class="contact-submit-button" type="submit" value="Send">Submit</button>
               </div>
